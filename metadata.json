@@ -1,0 +1,6 @@
+{
+  "name": "ZARA / High-Fashion Editorial Collection",
+  "description": "Ultra-minimalist, high-fashion clothing storefront inspired by ZARA with dynamic view switchers, editorial lookbook, quick view modal, and slide-out shopping bag.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

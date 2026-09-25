@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --zara-black: #000000;
+    --zara-white: #ffffff;
+    --zara-gray: #767676;
+    --zara-light-gray: #f4f4f4;
+    --zara-border: #e6e6e6;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.01em;
+    background-color: #ffffff;
+    color: #000000;
+    overflow-x: hidden;
+  }
+
+  /* Zara Iconic Brand Serif */
+  .font-zara-serif {
+    font-family: 'Bodoni Moda', 'Didot', 'Playfair Display', serif;
+  }
+}
+
+/* Custom luxury typography & tracking */
+.zara-brand-mark {
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: -0.08em;
+  font-weight: 900;
+  line-height: 0.85;
+  transform: scaleY(1.15);
+  display: inline-block;
+}
+
+.tracking-editorial {
+  letter-spacing: 0.18em;
+}
+
+.tracking-wide-caps {
+  letter-spacing: 0.12em;
+}
+
+/* Minimalist scrollbars */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+
+/* Smooth high-fashion image hover transitions */
+.editorial-img-zoom {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
+}
+
+.group:hover .editorial-img-zoom {
+  transform: scale(1.04);
+}
+
+/* Hairline borders */
+.border-hairline {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Luxury drawer backdrop */
+.luxury-backdrop {
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+}
+
+/* Interactive Grid icons */
+.grid-icon-line {
+  background-color: currentColor;
+  height: 100%;
+}
